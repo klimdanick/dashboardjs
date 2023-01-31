@@ -4,7 +4,7 @@ An IOT middleware that can be used as desktop aplication and webinterface
 This IOT middleware was created to make an expandable platform that could potentialy do enything you want with sensor data.
 It is a desktop aplication to use as smart thermostat and an web application to vieuw the sensor data more indept.
 
-I wanted to create this to monitor the CO gases that are released when i am soldering in my room, so that i can ventilate the room when its nesserery.
+I wanted to create this to monitor the CO2 gases that are released when i am soldering in my room, so that i can ventilate the room when its nesserery.
 
 So i had to create the dashboard and some hardware to sense the co2.
 
