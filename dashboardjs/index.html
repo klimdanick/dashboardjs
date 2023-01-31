@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+</head>
+<body>
+	<div style="position:absolute; left: 0; right: 0; margin-left: auto; margin-right: auto;  text-align: center;">
+		<u><h1 id="time"></h1></u>
+		<p id="date" style="font-size: 0.75em; line-height:0;"></p>
+	</div>
+	<div style=" position: absolute; left: 0; display: flex; flex-direction: column; width: 43%; height:95%; gap: 1em; align-items: left; justify-content: center;">
+		<div id="TempData" style="width: auto; height:100%;">
+			<!--h5 id="temp" style="">Temp:</h5-->
+		</div>
+		
+		<div id="PressData" style="width: auto; height:100%;">
+			<!--h5 id="press" style="">Press:</h5-->
+		</div>
+		
+		<!--div id="HumData" style="width: auto; height:100%;">
+			<!--h5 id="hum" style="">Hum:</h5-->
+		<!--/div-->
+	</div>
+</body>
+<script defer src="index.js"></script>
+<script defer src="public/canvasjs.min.js"> </script>
+<style>
+	body {
+		background-color: #080E11;
+		color: white;
+		font: 46px/50px D-DIN-Bold,Arial,Verdana,sans-serif;
+	}
+	
+	a {
+		display: none;
+	}
+</style>
+</html>
