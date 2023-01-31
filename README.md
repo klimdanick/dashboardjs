@@ -12,11 +12,11 @@ So i had to create the dashboard and some hardware to sense the co2.
 
 the pipeline works as follows:
       (I2C)     (HTTP)          (HTTP)
-Sensor --> ESP32 --> Express API --> Electron application
-                            |
-                     (JSON) |
-                            V
-                         Database
+Sensor --> ESP32 --> Express API --> Electron application\n
+                            |\n
+                     (JSON) |\n
+                            V\n
+                         Database\n
                          
                          
 ## API
